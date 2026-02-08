@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer"
 import { ProductImageCarousel } from "@/components/product-image-carousel"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { getProductById, products } from "@/lib/products-data"
+import { getProductById, getProducts } from "@/lib/products-db"
 import {
   Check,
   MessageCircle,
@@ -54,6 +54,7 @@ const characteristicIcons: Record<string, React.ElementType> = {
 }
 
 export async function generateStaticParams() {
+  const products = await getProducts()
   return products.map((product) => ({
     id: product.id,
   }))
@@ -65,7 +66,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>
 }): Promise<Metadata> {
   const { id } = await params
-  const product = getProductById(id)
+  const product = await getProductById(id)
 
   if (!product) {
     return {
@@ -85,7 +86,7 @@ export default async function ProductPage({
   params: Promise<{ id: string }>
 }) {
   const { id } = await params
-  const product = getProductById(id)
+  const product = await getProductById(id)
 
   if (!product) {
     notFound()

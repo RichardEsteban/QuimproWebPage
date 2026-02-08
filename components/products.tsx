@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Beaker, ArrowRight } from "lucide-react"
-import { products } from "@/lib/products-data"
+import type { Product } from "@/lib/products-db"
 
 const categoryColors: Record<string, string> = {
   Industrial: "bg-primary/10 text-primary",
@@ -12,7 +12,11 @@ const categoryColors: Record<string, string> = {
   Commercial: "bg-primary/10 text-primary",
 }
 
-export function Products() {
+type ProductsProps = {
+  products: Product[]
+}
+
+export function Products({ products }: ProductsProps) {
   return (
     <section id="products" className="bg-background py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
