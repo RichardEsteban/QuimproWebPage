@@ -4,10 +4,9 @@ import { About } from "@/components/about"
 import { Products } from "@/components/products"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
-import { getProducts } from "@/lib/products-db"
+import { products } from "@/lib/products-data"
 
-export default async function Home() {
-  const products = await getProducts()
+export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />

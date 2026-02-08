@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Beaker, ArrowRight } from "lucide-react"
-import type { Product } from "@/lib/products-db"
+import type { Product } from "@/lib/products-data"
 
 const categoryColors: Record<string, string> = {
   Industrial: "bg-primary/10 text-primary",
