@@ -5,11 +5,11 @@ export const products = [
     shortDescription: "Thinner reforzado de alta calidad para dilución de lacas y selladores.",
     fullDescription: "El THINNER ACRÍLICO NFSC-100 (Reforzado) es un solvente balanceado diseñado para ofrecer una evaporación controlada y un acabado brillante. Especialmente formulado para aplicaciones que requieren un alto poder de dilución sin comprometer el brillo original.",
     category: "Industrial",
-    image: "/products/thinner-industrial.jpg",
+    image: "/products/ThinnerNFSC100-1.jpeg",
     images: [
-      "/products/thinner-acrilico-1.jpg",
-      "/products/thinner-acrilico-2.jpg",
-      "/products/thinner-acrilico-3.jpg",
+      "/products/ThinnerNFSC100-1.jpeg",
+      "/products/ThinnerNFSC100-2.jpeg",
+      "/products/ThinnerNFSC100-1.jpeg",
     ],
     features: ["Secado rápido", "Alta pureza"],
     highlights: [
@@ -52,11 +52,11 @@ export const products = [
     shortDescription: "Especialmente formulado para repintado automotriz profesional.",
     fullDescription: "Nuestro Thinner Especial Automotriz NFSC-200 garantiza acabados de calidad profesional. Ofrece compatibilidad excepcional con sistemas de poliuretano y acrílico, proporcionando flujo y nivelación óptimos para un acabado sin defectos.",
     category: "Automotive",
-    image: "/products/automotive-solvent.jpg",
+    image: "/products/ThinnerNFSC200-1.jpeg",
     images: [
-      "/products/automotive-solvent.jpg",
-      "/products/automotive-solvent.jpg",
-      "/products/automotive-solvent.jpg",
+      "/products/ThinnerNFSC200-1.jpeg",
+      "/products/ThinnerNFSC200-2.jpeg",
+      "/products/ThinnerNFSC200-1.jpeg",
     ],
     features: ["Bajo olor", "Resistente a UV"],
     highlights: [
