@@ -27,7 +27,7 @@ export function Header() {
             height={40}
             className="rounded-lg"
           />
-          <span className="text-xl font-bold text-foreground">QUIMPRO</span>
+          <span className="text-xl font-bold text-foreground"></span>
         </Link>
 
         <div className="hidden md:flex md:items-center md:gap-8">
