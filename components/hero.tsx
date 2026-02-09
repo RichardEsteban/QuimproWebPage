@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Shield, Award } from "lucide-react"
+import { Beaker, Shield, Award } from "lucide-react"
 
 export function Hero() {
   return (
