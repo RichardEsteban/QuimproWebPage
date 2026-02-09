@@ -33,7 +33,7 @@ export function ProductImageCarousel({ images, productName }: ProductImageCarous
           src={images[currentIndex] || "/placeholder.svg"}
           alt={`${productName} - Image ${currentIndex + 1}`}
           fill
-          className="object-cover"
+          className="object-contain"
           priority
         />
         
@@ -79,7 +79,7 @@ export function ProductImageCarousel({ images, productName }: ProductImageCarous
                 src={image || "/placeholder.svg"}
                 alt={`${productName} thumbnail ${index + 1}`}
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </button>
           ))}
