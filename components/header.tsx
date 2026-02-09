@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, FlaskConical } from "lucide-react"
+import Image from "next/image"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
@@ -19,9 +20,13 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <FlaskConical className="h-6 w-6 text-primary-foreground" />
-          </div>
+          <Image
+            src="/logo.png"
+            alt="QUIMPRO Logo"
+            width={40}
+            height={40}
+            className="rounded-lg"
+          />
           <span className="text-xl font-bold text-foreground">QUIMPRO</span>
         </Link>
 

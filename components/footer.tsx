@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FlaskConical } from "lucide-react"
+import Image from "next/image"
 
 const footerLinks = {
   company: [
@@ -26,9 +26,13 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <FlaskConical className="h-6 w-6 text-primary-foreground" />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="QUIMPRO Logo"
+                width={40}
+                height={40}
+                className="rounded-lg"
+              />
               <span className="text-xl font-bold">QUIMPRO</span>
             </Link>
             <p className="mt-4 text-sm text-background/70 max-w-xs">
