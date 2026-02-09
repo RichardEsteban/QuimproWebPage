@@ -12,8 +12,8 @@ export default async function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
-      <About />
       <Products products={products} />
+      <About />
       <Contact />
       <Footer />
     </main>
