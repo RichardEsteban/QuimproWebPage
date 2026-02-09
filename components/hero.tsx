@@ -49,7 +49,7 @@ export function Hero() {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-primary/20 to-secondary/20 blur-2xl" />
             <div className="relative overflow-hidden rounded-2xl bg-muted p-8 shadow-xl">
               <Image
-                src="/hero-image.jpg"
+                src="/products/ThinnerNFSC100-1.jpeg"
                 alt="Solventes químicos de alta calidad"
                 width={500}
                 height={400}

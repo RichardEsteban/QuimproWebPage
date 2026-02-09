@@ -8,12 +8,12 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Quimpro - Chemical Solvents for Industrial, Automotive & Commercial Use',
-  description: 'High-quality chemical solvents manufactured and distributed by Quimpro. ISO 9001:2015 certified. Serving industrial, automotive, and commercial sectors since 2002.',
-  generator: 'v0.app',
+  title: 'Quimpro - Venta de disolventes ',
+  description: 'Disolventes de alta calidad distribuidos por Quimpro. ISO 9001:2015 certificado. Uso industrial, automotriz y comercial desde 2002.',
+  generator: '',
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: '/logo.jpg',
+    apple: '/logo.jng',
   },
 }
 
