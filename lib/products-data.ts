@@ -44,7 +44,7 @@ export const products = [
         description: "No deja residuos después del secado, garantizando acabados limpios.",
       },
     ],
-    youtubeVideoId: "dQw4w9WgXcQ",
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
   },
   {
     id: "thinner-acrilico-200",
@@ -91,7 +91,7 @@ export const products = [
         description: "Funciona con sistemas de poliuretano y acrílico.",
       },
     ],
-    youtubeVideoId: "dQw4w9WgXcQ",
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
   },
   {
     id: "aguarras-mineral",
@@ -110,147 +110,148 @@ export const products = [
     ],
     youtubeVideoId: "tu-video-id",
   },
-  
+
   {
-    id: "acetone-premium",
-    name: "Acetone Premium",
-    shortDescription: "Acetona ultrapura para aplicaciones de laboratorio e industriales. 99,9% de pureza garantizada.",
-    fullDescription: "ACETONE PREMIUM es nuestra línea de acetona ultrapura, con 99,9% de pureza para aplicaciones de laboratorio e industriales. Este solvente de alta calidad es ideal para procesos que requieren el máximo nivel de pureza química y consistencia.",
+    id: "diluyente-epoxico",
+    name: "Diluyente Epóxico NFSC-800",
+    shortDescription: "Solvente de alta solvencia para pinturas epóxicas de dos componentes.",
+    fullDescription: "Ajusta la viscosidad de recubrimientos epóxicos sin alterar su resistencia química. Esencial para aplicaciones en pisos y estructuras metálicas.",
     category: "Industrial",
-    image: "/products/acetone.jpg",
-    images: [
-      "/products/acetone.jpg",
-      "/products/acetone.jpg",
-      "/products/acetone.jpg",
-    ],
-    features: ["99,9% pura", "Grado laboratorio"],
-    highlights: [
-      "99,9% de pureza garantizada",
-      "Calidad grado laboratorio",
-      "Desempeño consistente",
-    ],
-    presentations: ["Drum x 55 GLN", "Drum x 5 GLN", "Gallon", "Liter"],
+    image: "/products/epoxico.jpg",
+    images: ["/products/epoxico.jpg"],
+    features: ["Alta solvencia", "Compatibilidad total"],
+    highlights: ["Uso industrial", "Mezcla homogénea", "Pureza garantizada"],
+    presentations: ["Bidón x 5 GLN", "Galonera x 2.6 LTS", "Galonera x 2.5 LTS"],
     characteristics: [
-      {
-        title: "Ultrapura",
-        description: "99,9% de pureza para aplicaciones exigentes.",
-      },
-      {
-        title: "Grado laboratorio",
-        description: "Cumple con los estándares de calidad de laboratorio.",
-      },
-      {
-        title: "Consistente",
-        description: "Consistencia garantizada entre lotes.",
-      },
-      {
-        title: "Evaporación rápida",
-        description: "Evaporación rápida sin dejar residuos.",
-      },
-      {
-        title: "Versátil",
-        description: "Adecuada para múltiples aplicaciones industriales.",
-      },
-      {
-        title: "Certificada en calidad",
-        description: "Calidad certificada para uso profesional.",
-      },
+      { title: "Especializado", description: "Diseñado para resinas epóxicas de alta densidad." }
     ],
-    youtubeVideoId: "dQw4w9WgXcQ",
+    youtubeVideoId: "tu-video-id",
   },
   {
-    id: "mineral-spirits",
-    name: "Mineral Spirits",
-    shortDescription: "Solvente refinado a base de hidrocarburos ideal para limpieza y dilución de productos base aceite.",
-    fullDescription: "Nuestro MINERAL SPIRITS es un solvente refinado a base de hidrocarburos, perfecto para la limpieza de brochas, equipos y la dilución de pinturas y barnices base aceite. Esta solución versátil y económica es un básico para pintores profesionales y aplicaciones industriales.",
-    category: "Commercial",
-    image: "/products/mineral-spirits.jpg",
-    images: [
-      "/products/mineral-spirits.jpg",
-      "/products/mineral-spirits.jpg",
-      "/products/mineral-spirits.jpg",
-    ],
-    features: ["Versátil", "Económico"],
-    highlights: [
-      "Altamente refinado",
-      "Uso multipropósito",
-      "Solución económica",
-    ],
-    presentations: ["Cylinder x 55 GLN", "Drum x 5 GLN", "Gallon"],
+    id: "alcohol-industrial",
+    name: "Alcohol Industrial",
+    shortDescription: "Solvente de limpieza multiusos para la industria y el taller.",
+    fullDescription: "Alcohol para limpieza técnica y desengrase de superficies. Ideal para la remoción de tintas, grasas ligeras y preparación de superficies antes de otros procesos.",
+    category: "Industrial",
+    image: "/products/alcohol-industrial.jpg",
+    images: ["/products/alcohol-industrial.jpg"],
+    features: ["Limpieza efectiva", "Secado rápido"],
+    highlights: ["Multiusos", "Económico", "Uso industrial"],
+    presentations: ["Cilindro x 55 GLN", "Bidón x 5 GLN", "Galonera x 2.6 LTS", "Galonera x 2.5 LTS", "Botella x 0.9 LTS"],
     characteristics: [
-      {
-        title: "Refinado",
-        description: "Altamente refinado para una calidad constante.",
-      },
-      {
-        title: "Versátil",
-        description: "Múltiples usos para limpieza y dilución.",
-      },
-      {
-        title: "Económico",
-        description: "Solución rentable para proyectos de gran escala.",
-      },
-      {
-        title: "Bajo residuo",
-        description: "Deja un residuo mínimo después de la evaporación.",
-      },
-      {
-        title: "Compatible",
-        description: "Funciona con pinturas y barnices base aceite.",
-      },
-      {
-        title: "Almacenamiento seguro",
-        description: "Estable para periodos prolongados de almacenamiento.",
-      },
+      { title: "Desengrasante", description: "Elimina residuos aceitosos de forma rápida." }
     ],
-    youtubeVideoId: "dQw4w9WgXcQ",
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
   },
   {
-    id: "isopropyl-alcohol",
-    name: "Isopropyl Alcohol",
-    shortDescription: "Alcohol isopropílico grado médico para sanitización y limpieza.",
-    fullDescription: "Nuestro ISOPROPYL ALCOHOL es de calidad grado médico, ideal para aplicaciones de sanitización, limpieza y desinfección. Con evaporación rápida y sin residuos, es perfecto para el sector salud, laboratorios y necesidades de limpieza industrial.",
-    category: "Commercial",
-    image: "/products/isopropyl-alcohol.jpg",
-    images: [
-      "/products/isopropyl-alcohol.jpg",
-      "/products/isopropyl-alcohol.jpg",
-      "/products/isopropyl-alcohol.jpg",
-    ],
-    features: ["Grado médico", "Evaporación rápida"],
-    highlights: [
-      "Calidad grado médico",
-      "Evaporación rápida",
-      "Sin residuos",
-    ],
-    presentations: ["Drum x 55 GLN", "Drum x 5 GLN", "Gallon", "Liter"],
+    id: "diluyente-epoxico",
+    name: "Diluyente Epóxico NFSC-800",
+    shortDescription: "Solvente de alta solvencia para pinturas epóxicas de dos componentes.",
+    fullDescription: "Ajusta la viscosidad de recubrimientos epóxicos sin alterar su resistencia química. Esencial para aplicaciones en pisos y estructuras metálicas.",
+    category: "Industrial",
+    image: "/products/epoxico.jpg",
+    images: ["/products/epoxico.jpg"],
+    features: ["Alta solvencia", "Compatibilidad total"],
+    highlights: ["Uso industrial", "Mezcla homogénea", "Pureza garantizada"],
+    presentations: ["Bidón x 5 GLN", "Galonera x 2.6 LTS", "Galonera x 2.5 LTS"],
     characteristics: [
-      {
-        title: "Grado médico",
-        description: "Cumple con los estándares de calidad grado médico.",
-      },
-      {
-        title: "Evaporación rápida",
-        description: "Se evapora rápidamente sin dejar residuos.",
-      },
-      {
-        title: "Desinfectante",
-        description: "Efectivo para sanitización y desinfección.",
-      },
-      {
-        title: "Seguro",
-        description: "Seguro para su uso en la mayoría de superficies.",
-      },
-      {
-        title: "Versátil",
-        description: "Múltiples aplicaciones de limpieza y sanitización.",
-      },
-      {
-        title: "Calidad garantizada",
-        description: "Control de calidad que asegura un desempeño consistente.",
-      },
+      { title: "Especializado", description: "Diseñado para resinas epóxicas de alta densidad." }
     ],
-    youtubeVideoId: "dQw4w9WgXcQ",
+    youtubeVideoId: "tu-video-id",
+  },
+  {id: "thinner-standard",
+    name: "Thinner Standard NFSC-600",
+    shortDescription: "Thinner de uso general para limpieza y diluciones sencillas.",
+    fullDescription: "Solvente económico para uso diario en limpieza de herramientas y diluciones que no requieran acabados especiales de alta gama.",
+    category: "Industrial",
+    image: "/products/standard.jpg",
+    images: ["/products/standard.jpg"],
+    features: ["Económico", "Multiuso"],
+    highlights: ["Costo-beneficio", "Uso general", "Versátil"],
+    presentations: ["Galonera", "Bidón", "Cilindro"],
+    characteristics: [
+      { title: "Versatilidad", description: "El aliado ideal para cualquier tarea de limpieza en el taller." }
+    ],
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
+  },
+  {
+    id: "preservante-madera",
+    name: "Preservante para Madera",
+    shortDescription: "Protección contra insectos, hongos y humedad.",
+    fullDescription: "Protector penetrante diseñado para alargar la vida útil de la madera, evitando el ataque de termitas, polillas y la formación de hongos.",
+    category: "Commercial",
+    image: "/products/madera.jpg",
+    images: ["/products/madera.jpg"],
+    features: ["Penetración profunda", "Acción residual"],
+    highlights: ["Anti-termitas", "Larga duración", "Fácil de aplicar"],
+    presentations: ["Botella x 0.9L", "Bidón x 5 GLN"],
+    characteristics: [
+      { title: "Protección", description: "Crea una barrera protectora dentro de la fibra de la madera." }
+    ],
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
+  },
+  {
+    id: "alcohol-isopropilico-70",
+    name: "Alcohol Isopropílico 70%",
+    shortDescription: "Solución de limpieza y desinfección de superficies.",
+    fullDescription: "Alcohol de alta calidad para sanitización. Ideal para desinfección en áreas comerciales e industriales.",
+    category: "Commercial",
+    image: "/products/isopropilico70.jpg",
+    images: ["/products/isopropilico70.jpg"],
+    features: ["Desinfectante", "Seguro"],
+    highlights: ["Sanitización", "Grado técnico", "Multiuso"],
+    presentations: ["Bidón", "Galón", "Litro"],
+    characteristics: [
+      { title: "Acción", description: "Efectivo contra una amplia gama de microorganismos." }
+    ],
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
+  },
+  {id: "isopropyl-alcohol-99",
+    name: "Alcohol Isopropílico 99%",
+    shortDescription: "Alcohol isopropílico de alta pureza para limpieza técnica y electrónica.",
+    fullDescription: "Nuestro Alcohol Isopropílico al 99% es de grado industrial/técnico superior. Su alta concentración garantiza una evaporación instantánea sin dejar residuos de humedad, lo que lo hace ideal para la limpieza de componentes electrónicos, placas de circuito y procesos industriales de precisión.",
+    category: "Industrial / Comercial",
+    image: "/products/isopropyl-99.jpg",
+    images: ["/products/isopropyl-99.jpg"],
+    features: ["99.9% pureza", "Secado instantáneo"],
+    highlights: ["Sin residuos hídricos", "Uso en electrónica", "Desengrasante potente"],
+    presentations: [
+      "Cilindro x 55 GLN", 
+      "Bidón x 5 GLN", 
+      "Galonera x 3 LTS",
+      "Galonera x 2.6 LTS", 
+      "Galonera x 2.5 LTS", 
+      "Botella x 0.9 LTS"
+    ],
+    characteristics: [
+      { title: "Grado Técnico", description: "Máxima pureza para evitar la oxidación en componentes metálicos y electrónicos." },
+      { title: "Evaporación", description: "Seca al contacto permitiendo una manipulación inmediata de las piezas." }
+    ],
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
+  },
+  {
+    id: "isopropyl-alcohol-70",
+    name: "Alcohol Isopropílico 70%",
+    shortDescription: "Solución de alcohol isopropílico al 70% para sanitización y desinfección.",
+    fullDescription: "El Alcohol Isopropílico al 70% es la solución óptima para la desinfección de superficies. Al contener un porcentaje de agua destilada, la evaporación es ligeramente más lenta, permitiendo que el alcohol penetre y elimine microorganismos de manera más efectiva en áreas comerciales e industriales.",
+    category: "Comercial / Salud",
+    image: "/products/isopropyl-70.jpg",
+    images: ["/products/isopropyl-70.jpg"],
+    features: ["Poder desinfectante", "Uso seguro en superficies"],
+    highlights: ["Ideal para sanitización", "Acción prolongada", "Uso industrial y doméstico"],
+    presentations: [
+      "Cilindro x 55 GLN", 
+      "Bidón x 5 GLN", 
+      "Galonera x 2.6 LTS", 
+      "Galonera x 2.5 LTS", 
+      "Botella x 0.9 LTS",
+      "Botella x 0.5 LTS"
+    ],
+    characteristics: [
+      { title: "Eficacia", description: "Proporción ideal para la ruptura de membranas celulares de bacterias y virus." },
+      { title: "Versatilidad", description: "Seguro para la mayoría de superficies plásticas y metálicas en entornos de oficina y talleres." }
+    ],
+    youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
   },
 ]
 
