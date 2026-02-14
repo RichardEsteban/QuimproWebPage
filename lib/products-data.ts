@@ -45,8 +45,8 @@ export const products = [
       },
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/thinner-acrilico-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/thinner-acrilico-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA NFSC-100.pdf",
+    hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD-NFSC-100.pdf",
   },
   {
     id: "thinner-acrilico-200",
