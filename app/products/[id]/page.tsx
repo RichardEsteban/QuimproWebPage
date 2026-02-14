@@ -169,31 +169,37 @@ export default async function ProductPage({
                 </div>
 
                 {/* Downloads */}
-                <div className="space-y-3">
-                  <h3 className="font-semibold text-foreground">Documentos</h3>
-                  <div className="flex flex-col gap-2">
-                    <Button asChild variant="outline" className="justify-start">
-                      <a
-                        href={`/products/${product.id}-ficha-tecnica.pdf`}
-                        download
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        📄 Descargar Ficha Técnica
-                      </a>
-                    </Button>
-                    <Button asChild variant="outline" className="justify-start">
-                      <a
-                        href={`/products/${product.id}-hoja-seguridad.pdf`}
-                        download
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        🛡️ Descargar Hoja de Seguridad
-                      </a>
-                    </Button>
+                {(product.fichaTecnicaUrl || product.hojaSeguridad) && (
+                  <div className="space-y-3">
+                    <h3 className="font-semibold text-foreground">Documentos</h3>
+                    <div className="flex flex-col gap-2">
+                      {product.fichaTecnicaUrl && (
+                        <Button asChild variant="outline" className="justify-start">
+                          <a
+                            href={product.fichaTecnicaUrl}
+                            download
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            📄 Descargar Ficha Técnica
+                          </a>
+                        </Button>
+                      )}
+                      {product.hojaSeguridad && (
+                        <Button asChild variant="outline" className="justify-start">
+                          <a
+                            href={product.hojaSeguridad}
+                            download
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            🛡️ Descargar Hoja de Seguridad
+                          </a>
+                        </Button>
+                      )}
+                    </div>
                   </div>
-                </div>
+                )}
                 <Button
                   asChild
                   size="lg"

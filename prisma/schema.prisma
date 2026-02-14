@@ -23,6 +23,8 @@ model Product {
   presentations    String  // JSON array of presentation strings
   characteristics  String  // JSON array of {title, description}
   youtubeVideoId  String?
+  fichaTecnicaUrl String?  // URL de la ficha técnica PDF
+  hojaSeguridad    String?  // URL de la hoja de seguridad PDF
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
 }
