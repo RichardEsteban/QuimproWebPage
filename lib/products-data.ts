@@ -212,7 +212,7 @@ export const products = [
     shortDescription: "Alcohol isopropílico de alta pureza para limpieza técnica y electrónica.",
     fullDescription: "Nuestro Alcohol Isopropílico al 99% es de grado industrial/técnico superior. Su alta concentración garantiza una evaporación instantánea sin dejar residuos de humedad, lo que lo hace ideal para la limpieza de componentes electrónicos, placas de circuito y procesos industriales de precisión.",
     category: "Industrial / Comercial",
-    image: "/products/Alcohol Isopropilico 99.png",
+    image: "/products/Alcohol Isopropilico 99-1.png",
     images: ["/products/Alcohol Isopropilico 99-1.png"],
     features: ["99.9% pureza", "Secado instantáneo"],
     highlights: ["Sin residuos hídricos", "Uso en electrónica", "Desengrasante potente"],
