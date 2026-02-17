@@ -130,8 +130,8 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-foreground">Teléfono</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      +51 (1) 555-0123<br />
-                      +51 999 555 0123
+                      +51 920 016 148 <br />
+                      +51 992 360 331
                     </p>
                   </div>
                 </div>
@@ -147,8 +147,7 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-foreground">Correo electrónico</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      sales@quimpro.com<br />
-                      support@quimpro.com
+                      quimpro@jotmail.com<br />
                     </p>
                   </div>
                 </div>

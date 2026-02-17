@@ -94,8 +94,8 @@ export const products = [
       },
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/thinner-acrilico-200-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/thinner-acrilico-200-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA THINNER NFSC-200.pdf",
+    hojaSeguridad: "/products/datasheets/F SEGURIDAD THINNER ACRILICO AUTOMOTRIZ SC-200 R.pdf",
   },
   {
     id: "aguarras-mineral",
@@ -113,8 +113,8 @@ export const products = [
       { title: "Compatibilidad", description: "Funciona perfectamente con barnices y pinturas base aceite." }
     ],
     youtubeVideoId: "tu-video-id",
-    fichaTecnicaUrl: "/products/datasheets/aguarras-mineral-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/aguarras-mineral-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA AGUARRAZ MINERAL AR-302.doc.pdf",
+    hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD AGUARRAZ MINERAL AR-302.docx.pdf",
   },
 
   {
@@ -132,8 +132,8 @@ export const products = [
       { title: "Especializado", description: "Diseñado para resinas epóxicas de alta densidad." }
     ],
     youtubeVideoId: "tu-video-id",
-    fichaTecnicaUrl: "/products/datasheets/diluyente-epoxico-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/diluyente-epoxico-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA DILUYENTE EPOXICO NFSC-800.pdf",
+    hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD DILUYENTE EPOXICO.pdf",
   },
   {
     id: "alcohol-industrial",
@@ -168,8 +168,8 @@ export const products = [
       { title: "Versatilidad", description: "El aliado ideal para cualquier tarea de limpieza en el taller." }
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/thinner-standard-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/thinner-standard-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA NFSC-600.pdf",
+    hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD-NFSC-600.pdf",
   },
   {
     id: "preservante-madera",
@@ -186,8 +186,8 @@ export const products = [
       { title: "Protección", description: "Crea una barrera protectora dentro de la fibra de la madera." }
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/preservante-madera-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/preservante-madera-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/PRESERVANTE DE MADERA",
+    hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA",
   },
   {
     id: "alcohol-isopropilico-70",
@@ -205,7 +205,7 @@ export const products = [
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
     fichaTecnicaUrl: "/products/datasheets/alcohol-isopropilico-70-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/alcohol-isopropilico-70-hoja-seguridad.pdf",
+    hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 70% QUIMPRO.pdf",
   },
   {id: "isopropyl-alcohol-99",
     name: "Alcohol Isopropílico 99%",
@@ -229,8 +229,8 @@ export const products = [
       { title: "Evaporación", description: "Seca al contacto permitiendo una manipulación inmediata de las piezas." }
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/isopropyl-alcohol-99-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/isopropyl-alcohol-99-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/FICHA SEGURIDAD DEL ALCOHOL ISOPROPILICO 2.pdf",
+    hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 99% QUIMPRO.pdf",
   },
   
 ]
