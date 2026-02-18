@@ -29,11 +29,12 @@ export function Footer() {
               <Image
                 src="/logo.jpg"
                 alt=""
-                width={40}
-                height={40}
-                className="rounded-lg"
+                width={0}
+                height={50}
+                sizes="100vw"
+                className="rounded-lg w-30 h-25"
               />
-              <span className="text-xl font-bold">QUIMPRO</span>
+              <span className="text-xl font-bold"></span>
             </Link>
             <p className="mt-4 text-sm text-background/70 max-w-xs">
               Fabricante y distribuidor líder de solventes químicos de alta calidad para aplicaciones industriales, automotrices y comerciales.
