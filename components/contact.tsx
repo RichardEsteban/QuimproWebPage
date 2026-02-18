@@ -113,7 +113,7 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-foreground">Dirección</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      Av. Industrial 1234<br />
+                       Sector Unión Bellavista, San Antonio de Chaclla  <br />
                       Lima, Peru
                     </p>
                   </div>
@@ -147,7 +147,7 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-foreground">Correo electrónico</h3>
                     <p className="text-sm text-muted-foreground mt-1">
-                      quimpro@jotmail.com<br />
+                      quimpro@hotmail.com<br />
                     </p>
                   </div>
                 </div>
