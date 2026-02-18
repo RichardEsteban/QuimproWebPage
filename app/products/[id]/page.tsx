@@ -95,6 +95,26 @@ export default async function ProductPage({
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
+      {/* Product JSON-LD for rich results */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: product.name,
+            image: (product.images || []).map((p) => `https://quimpro.example${p}`),
+            description: product.shortDescription,
+            sku: product.id,
+            brand: {
+              "@type": "Brand",
+              name: "QUIMPRO",
+            },
+            url: `https://quimpro.example/products/${product.id}`,
+            category: product.category,
+          })
+        }}
+      />
       
       <main className="flex-1">
         {/* Breadcrumb */}
@@ -282,7 +302,7 @@ export default async function ProductPage({
                     key={characteristic.title}
                     className="flex gap-4 p-4 rounded-xl bg-card border border-border"
                   >
-                    <div className={`flex-shrink-0 ${color}`}>
+                    <div className={`shrink-0 ${color}`}>
                       <IconComponent className="h-6 w-6" />
                     </div>
                     <div>

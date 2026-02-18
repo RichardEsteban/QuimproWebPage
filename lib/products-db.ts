@@ -18,6 +18,8 @@ export type Product = {
   presentations: string[]
   characteristics: ProductCharacteristic[]
   youtubeVideoId: string | null
+  fichaTecnicaUrl?: string | null
+  hojaSeguridad?: string | null
 }
 
 function parseProductRow(row: {
@@ -33,6 +35,8 @@ function parseProductRow(row: {
   presentations: string
   characteristics: string
   youtubeVideoId: string | null
+  fichaTecnicaUrl?: string | null
+  hojaSeguridad?: string | null
 }): Product {
   return {
     id: row.id,
@@ -47,6 +51,8 @@ function parseProductRow(row: {
     presentations: JSON.parse(row.presentations) as string[],
     characteristics: JSON.parse(row.characteristics) as ProductCharacteristic[],
     youtubeVideoId: row.youtubeVideoId,
+    fichaTecnicaUrl: row.fichaTecnicaUrl || null,
+    hojaSeguridad: row.hojaSeguridad || null,
   }
 }
 
