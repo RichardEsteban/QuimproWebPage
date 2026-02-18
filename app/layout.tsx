@@ -25,10 +25,10 @@ export const metadata: Metadata = {
       'QUIMPRO: 20+ años ofreciendo thinner acrílico, aguarrás, alcohol isopropílico y solventes industriales. ISO 9001:2015.',
     siteName: 'QUIMPRO',
     type: 'website',
-    url: 'https://quimpro.example',
+    url: 'https://quimicaproceres.com',
     images: [
       {
-        url: '/logo.png',
+        url: '/logo.jpg',
         width: 800,
         height: 600,
         alt: 'QUIMPRO Logo',
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
       '20+ años de experiencia en solventes químicos. Compra thinner en Lima Este y recibe asesoría técnica.',
   },
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: '/logo.jpg',
+    apple: '/logo.jpg',
   },
 }
 
@@ -59,11 +59,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "QUIMPRO",
-              url: "https://quimpro.example",
-              logo: "https://quimpro.example/logo.png",
+              url: "https://quimicaproceres.com",
+              logo: "https://quimicaproceres.com/logo.jpg",
               sameAs: [
-                "https://www.facebook.com/quimpro",
-                "https://www.linkedin.com/company/quimpro"
+                "https://www.facebook.com/quimicaproceres",
               ],
               address: {
                 "@type": "PostalAddress",
