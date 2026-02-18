@@ -27,8 +27,8 @@ export function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/logo.png"
-                alt="QUIMPRO Logo"
+                src="/logo.jpg"
+                alt=""
                 width={40}
                 height={40}
                 className="rounded-lg"
