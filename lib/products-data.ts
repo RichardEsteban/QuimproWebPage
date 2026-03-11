@@ -162,8 +162,8 @@ export const products = [
       { title: "Desengrasante", description: "Elimina residuos aceitosos de forma rápida." }
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/alcohol-industrial-ficha-tecnica.pdf",
-    hojaSeguridad: "/products/datasheets/alcohol-industrial-hoja-seguridad.pdf",
+    fichaTecnicaUrl: "/products/datasheets/ALCOHOL ETILICO DESNATURALIZADO WORD.pdf",
+    hojaSeguridad: "/products/datasheets/ALCOHOL ETILICO DESNATURALIZADO WORD.pdf",
   },
   
   {id: "thinner-standard",
@@ -206,8 +206,8 @@ export const products = [
       { title: "Protección", description: "Crea una barrera protectora dentro de la fibra de la madera." }
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/PRESERVANTE DE MADERA",
-    hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA",
+    fichaTecnicaUrl: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA.pdf",
+    hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA.pdf",
   },
   {
     id: "alcohol-isopropilico-70",
