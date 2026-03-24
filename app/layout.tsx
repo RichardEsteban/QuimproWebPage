@@ -50,6 +50,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="es">
+      <head>
+        <meta name="google-site-verification" content="DUa0F_qEqnOO26R-sI4W7WdnCkgLjOIqtCanGNRgUNc" />
+      </head>
       <body className={`font-sans antialiased`}>
         {/* Organization JSON-LD for SEO */}
         <script
