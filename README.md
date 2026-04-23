@@ -1,3 +1,5 @@
+Quimmpro WebPage
+
 Este repositorio contiene el código fuente de la página web oficial de QUIMPRO, una empresa dedicada a la fabricación y comercialización al por mayor de solventes industriales, tales como thinner y alcohol isopropílico.
 
 El objetivo del sitio es proporcionar una plataforma informativa donde los clientes puedan conocer el catálogo de productos, la visión de la empresa y facilitar el contacto para ventas mayoristas.
