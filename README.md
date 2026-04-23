@@ -1,30 +1,33 @@
-# Chemical company landing page
+Este repositorio contiene el código fuente de la página web oficial de QUIMPRO, una empresa dedicada a la fabricación y comercialización al por mayor de solventes industriales, tales como thinner y alcohol isopropílico.
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+El objetivo del sitio es proporcionar una plataforma informativa donde los clientes puedan conocer el catálogo de productos, la visión de la empresa y facilitar el contacto para ventas mayoristas.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/richardesteban53-9030s-projects/v0-chemical-company-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/kxv4YBAFwPZ)
+🚀 Tecnologías Utilizadas
+Frontend: HTML5, CSS3, JavaScript (diseño responsivo y moderno).
 
-## Overview
+Despliegue: Vercel
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+📦 Productos Principales
+Thinner (diversas calidades para uso industrial).
 
-## Deployment
+Alcohol Isopropílico.
 
-Your project is live at:
+Solventes y químicos industriales al por mayor.
 
-**[https://vercel.com/richardesteban53-9030s-projects/v0-chemical-company-landing-page](https://vercel.com/richardesteban53-9030s-projects/v0-chemical-company-landing-page)**
+🛠️ Instalación y Uso
+Si deseas visualizar el proyecto localmente:
 
-## Build your app
+Clona el repositorio:
 
-Continue building your app on:
+Bash
+git clone https://github.com/RichardEsteban/QuimproWebPage.git
+Navega a la carpeta del proyecto:
 
-**[https://v0.app/chat/kxv4YBAFwPZ](https://v0.app/chat/kxv4YBAFwPZ)**
+Bash
+cd QuimproWebPage
+Abre el archivo index.html en tu navegador preferido.
 
-## How It Works
+📄 Licencia
+Este proyecto es de uso privado para la marca QUIMPRO. Todos los derechos reservados.
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Desarrollado por Richard Esteban
