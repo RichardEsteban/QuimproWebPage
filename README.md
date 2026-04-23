@@ -16,18 +16,6 @@ Alcohol Isopropílico.
 
 Solventes y químicos industriales al por mayor.
 
-🛠️ Instalación y Uso
-Si deseas visualizar el proyecto localmente:
-
-Clona el repositorio:
-
-Bash
-git clone https://github.com/RichardEsteban/QuimproWebPage.git
-Navega a la carpeta del proyecto:
-
-Bash
-cd QuimproWebPage
-Abre el archivo index.html en tu navegador preferido.
 
 📄 Licencia
 Este proyecto es de uso privado para la marca QUIMPRO. Todos los derechos reservados.
