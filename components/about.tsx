@@ -1,4 +1,4 @@
-import { Award, Clock, Package, ShieldCheck } from "lucide-react"
+import { Award, Clock, Package, ShieldCheck, Download, FileText } from "lucide-react"
 
 const stats = [
   {
@@ -46,6 +46,41 @@ export function About() {
               <p>
                 Brindamos un servicio personalizado y soporte técnico especializado, convirtiéndonos en un aliado estratégico para los proyectos de nuestros clientes.
               </p>
+            </div>
+
+            <div className="mt-8 space-y-4">
+              <h3 className="text-lg font-semibold text-foreground mb-4">Alcance y Políticas de la Empresa</h3>
+              <div className="grid gap-3">
+                <a 
+                  href="/REG-GG-004 - ALCANCE DEL SIG (1).pdf" 
+                  download
+                  className="flex items-center gap-3 p-4 rounded-lg border border-border bg-background hover:bg-muted/50 transition-colors"
+                >
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
+                    <FileText className="h-5 w-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-medium text-foreground">Alcance de la Empresa</div>
+                    <div className="text-sm text-muted-foreground">Descarga nuestro PDF con información sobre el alcance de nuestros servicios</div>
+                  </div>
+                  <Download className="h-5 w-5 text-muted-foreground" />
+                </a>
+                
+                <a 
+                  href="/POL-SIG-001 POLITICA SIG.pdf" 
+                  download
+                  className="flex items-center gap-3 p-4 rounded-lg border border-border bg-background hover:bg-muted/50 transition-colors"
+                >
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
+                    <FileText className="h-5 w-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-medium text-foreground">Política de la Empresa</div>
+                    <div className="text-sm text-muted-foreground">Descarga nuestro PDF con las políticas de la empresa</div>
+                  </div>
+                  <Download className="h-5 w-5 text-muted-foreground" />
+                </a>
+              </div>
             </div>
           </div>
 
