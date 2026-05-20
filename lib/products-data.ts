@@ -257,8 +257,8 @@ export const products = [
       { title: "Evaporación", description: "Seca al contacto permitiendo una manipulación inmediata de las piezas." }
     ],
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
-    fichaTecnicaUrl: "/products/datasheets/FICHA SEGURIDAD DEL ALCOHOL ISOPROPILICO 2.pdf",
-    hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 99% QUIMPRO.pdf",
+    fichaTecnicaUrl: "/products/datasheets/FICHA TECNICA ALCOHOL ISOP. RENO-QP (1).pdf",
+    hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 99% QUIMPRO (1).pdf",
   },
   
 ]
