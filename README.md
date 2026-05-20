@@ -1,30 +1,72 @@
-# Chemical company landing page
+# QUIMPRO WebPage
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Sitio web oficial de QUIMPRO, empresa química peruana líder en la fabricación y comercialización de solventes industriales de alta calidad.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/richardesteban53-9030s-projects/v0-chemical-company-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/kxv4YBAFwPZ)
+## 🏢 Sobre la Empresa
 
-## Overview
+QUIMPRO es una empresa química peruana con más de 20 años de experiencia en el mercado (desde 2002), especializada en la fabricación, comercialización y distribución de solventes químicos de alta calidad para los sectores industrial, automotriz y comercial.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+### 🎯 Misión
+Proporcionar solventes químicos de calidad superior que garanticen seguridad, desempeño y resultados profesionales para nuestros clientes.
 
-## Deployment
+### 🏆 Certificaciones
+- **ISO 9001:2015**: Sistema de gestión de calidad certificado
+- Compromiso con estándares internacionales de calidad y seguridad
 
-Your project is live at:
+## 🌐 Características del Sitio Web
 
-**[https://vercel.com/richardesteban53-9030s-projects/v0-chemical-company-landing-page](https://vercel.com/richardesteban53-9030s-projects/v0-chemical-company-landing-page)**
+### Funcionalidades Principales
+- **Catálogo de productos**: Visualización detallada de solventes químicos
+- **Sección Quiénes Somos**: Información corporativa con descarga de documentos
+- **Formulario de contacto**: Canal directo para solicitudes mayoristas
+- **Diseño responsivo**: Experiencia óptima en todos los dispositivos
+- **Navegación intuitiva**: Fácil acceso a toda la información
 
-## Build your app
+### Documentos Disponibles
+- **Alcance de la Empresa**: PDF con información detallada sobre servicios y cobertura
+- **Política de la Empresa**: Documento con políticas corporativas y de calidad
 
-Continue building your app on:
+## 🧪 Productos Principales
 
-**[https://v0.app/chat/kxv4YBAFwPZ](https://v0.app/chat/kxv4YBAFwPZ)**
+### Solventes Industriales
+- **Thinner**: Diversas calidades para uso industrial y automotriz
+- **Alcohol Isopropílico**: Alta pureza para aplicaciones profesionales
+- **Solventes especializados**: Formulaciones personalizadas según requerimientos
 
-## How It Works
+### Aplicaciones
+- Sector industrial
+- Industria automotriz
+- Sector comercial
+- Aplicaciones especializadas
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🛠️ Stack Tecnológico
+
+### Frontend
+- **Next.js 16**: Framework React moderno con renderizado del lado del servidor
+- **TypeScript**: Desarrollo tipado y seguro
+- **Tailwind CSS**: Framework de CSS para diseño moderno y responsivo
+- **Radix UI**: Componentes accesibles y personalizables
+- **Lucide React**: Biblioteca de iconos modernos
+
+### Backend
+- **Prisma**: ORM para gestión de base de datos
+- **Next.js API Routes**: Endpoints para funcionalidades del lado del servidor
+
+### Despliegue
+- **Vercel**: Plataforma de hosting optimizada para Next.js
+
+## 📱 Características Técnicas
+
+### Rendimiento
+- Optimización de imágenes con Next.js Image
+- Código dividido para carga rápida
+- Diseño responsivo con Tailwind CSS
+- Soporte para temas claro/oscuro
+
+### Accesibilidad
+- Componentes semánticos HTML5
+- Navegación por teclado
+- Contraste de colores optimizado
+- Estructura SEO-friendly
+
+Desarrollado Por Richard Esteban 
