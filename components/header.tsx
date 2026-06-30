@@ -45,7 +45,7 @@ export function Header() {
 
         <div className="hidden md:block">
           <Button asChild>
-            <a href="https://wa.me/992360331" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/920016148" target="_blank" rel="noopener noreferrer">
               Realiza tu pedido
             </a>
           </Button>
