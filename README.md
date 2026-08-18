@@ -1,72 +1,35 @@
 # QUIMPRO WebPage
 
-Sitio web oficial de QUIMPRO, empresa química peruana líder en la fabricación y comercialización de solventes industriales de alta calidad.
+Sitio web oficial de QUIMPRO, empresa quimica peruana lider en la fabricacion y comercializacion de solventes industriales de alta calidad.
 
-## 🏢 Sobre la Empresa
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-QUIMPRO es una empresa química peruana con más de 20 años de experiencia en el mercado (desde 2002), especializada en la fabricación, comercialización y distribución de solventes químicos de alta calidad para los sectores industrial, automotriz y comercial.
+**Demo en produccion:** https://www.quimicaproceres.com/ (49 commits)
 
-### 🎯 Misión
-Proporcionar solventes químicos de calidad superior que garanticen seguridad, desempeño y resultados profesionales para nuestros clientes.
+## Captura
 
-### 🏆 Certificaciones
-- **ISO 9001:2015**: Sistema de gestión de calidad certificado
-- Compromiso con estándares internacionales de calidad y seguridad
+![Captura de QuimproWebPage](screenshots/quimprowebpage.jpg)
 
-## 🌐 Características del Sitio Web
+## Sobre el proyecto
 
-### Funcionalidades Principales
-- **Catálogo de productos**: Visualización detallada de solventes químicos
-- **Sección Quiénes Somos**: Información corporativa con descarga de documentos
-- **Formulario de contacto**: Canal directo para solicitudes mayoristas
-- **Diseño responsivo**: Experiencia óptima en todos los dispositivos
-- **Navegación intuitiva**: Fácil acceso a toda la información
+QUIMPRO es una empresa quimica peruana con mas de 20 anos de experiencia (desde 2002), especializada en la fabricacion, comercializacion y distribucion de solventes quimicos de alta calidad para los sectores industrial, automotriz y comercial. Este sitio es su vitrina oficial: catalogo de productos, seccion corporativa con descarga de documentos, formulario de contacto para pedidos mayoristas, y diseno responsivo con soporte de tema claro/oscuro.
 
-### Documentos Disponibles
-- **Alcance de la Empresa**: PDF con información detallada sobre servicios y cobertura
-- **Política de la Empresa**: Documento con políticas corporativas y de calidad
+## Stack tecnico
 
-## 🧪 Productos Principales
+**Frontend:** Next.js 16 (SSR), TypeScript, Tailwind CSS, Radix UI, Lucide React. **Backend:** Prisma ORM, Next.js API Routes. **Despliegue:** Vercel.
 
-### Solventes Industriales
-- **Thinner**: Diversas calidades para uso industrial y automotriz
-- **Alcohol Isopropílico**: Alta pureza para aplicaciones profesionales
-- **Solventes especializados**: Formulaciones personalizadas según requerimientos
+## Funcionalidades
 
-### Aplicaciones
-- Sector industrial
-- Industria automotriz
-- Sector comercial
-- Aplicaciones especializadas
+Catalogo de productos (thinner, alcohol isopropilico, solventes especializados); seccion Quienes somos con descarga de PDFs (alcance de la empresa, politica de calidad); formulario de contacto para solicitudes mayoristas; diseno responsivo y accesible (HTML5 semantico, navegacion por teclado); certificacion ISO 9001:2015 destacada.
 
-## 🛠️ Stack Tecnológico
+## Estado
 
-### Frontend
-- **Next.js 16**: Framework React moderno con renderizado del lado del servidor
-- **TypeScript**: Desarrollo tipado y seguro
-- **Tailwind CSS**: Framework de CSS para diseño moderno y responsivo
-- **Radix UI**: Componentes accesibles y personalizables
-- **Lucide React**: Biblioteca de iconos modernos
+Proyecto en produccion activa, con 49 commits y 4 branches: el mas maduro del portafolio.
 
-### Backend
-- **Prisma**: ORM para gestión de base de datos
-- **Next.js API Routes**: Endpoints para funcionalidades del lado del servidor
+---
 
-### Despliegue
-- **Vercel**: Plataforma de hosting optimizada para Next.js
-
-## 📱 Características Técnicas
-
-### Rendimiento
-- Optimización de imágenes con Next.js Image
-- Código dividido para carga rápida
-- Diseño responsivo con Tailwind CSS
-- Soporte para temas claro/oscuro
-
-### Accesibilidad
-- Componentes semánticos HTML5
-- Navegación por teclado
-- Contraste de colores optimizado
-- Estructura SEO-friendly
-
-Desarrollado Por Richard Esteban 
+Desarrollado por Richard Esteban
