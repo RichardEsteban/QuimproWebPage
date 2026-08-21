@@ -26,10 +26,5 @@ QUIMPRO es una empresa quimica peruana con mas de 20 anos de experiencia (desde 
 
 Catalogo de productos (thinner, alcohol isopropilico, solventes especializados); seccion Quienes somos con descarga de PDFs (alcance de la empresa, politica de calidad); formulario de contacto para solicitudes mayoristas; diseno responsivo y accesible (HTML5 semantico, navegacion por teclado); certificacion ISO 9001:2015 destacada.
 
-## Estado
-
-Proyecto en produccion activa, con 49 commits y 4 branches: el mas maduro del portafolio.
-
----
 
 Desarrollado por Richard Esteban
