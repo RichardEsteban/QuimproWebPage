@@ -74,6 +74,7 @@ function fromStatic(product: (typeof staticProducts)[number]): Product {
 // se usa la data estática como respaldo para no romper producción.
 export async function getProducts(): Promise<Product[]> {
   try {
+    if (!prisma) throw new Error("DATABASE_URL no configurado")
     const rows = await prisma.product.findMany({ orderBy: { createdAt: "asc" } })
     if (rows.length === 0) return staticProducts.map(fromStatic)
     return rows.map(parseProductRow)
@@ -84,6 +85,7 @@ export async function getProducts(): Promise<Product[]> {
 
 export async function getProductById(id: string): Promise<Product | null> {
   try {
+    if (!prisma) throw new Error("DATABASE_URL no configurado")
     const row = await prisma.product.findUnique({ where: { id } })
     if (row) return parseProductRow(row)
   } catch {
