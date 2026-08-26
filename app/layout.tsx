@@ -1,11 +1,20 @@
 import React from "react"
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { IBM_Plex_Sans, Space_Grotesk, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const _ibmPlexSans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans",
+});
+const _spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  variable: "--font-heading",
+});
+const _geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
   title: 'QUIMPRO — Thinner y solventes químicos | Lima Este, Perú',
@@ -53,7 +62,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head>
         <meta name="google-site-verification" content="DUa0F_qEqnOO26R-sI4W7WdnCkgLjOIqtCanGNRgUNc" />
       </head>
-      <body className={`font-sans antialiased`}>
+      <body className={`${_ibmPlexSans.variable} ${_spaceGrotesk.variable} ${_geistMono.variable} font-sans antialiased`}>
         {/* Organization JSON-LD for SEO */}
         <script
           type="application/ld+json"
