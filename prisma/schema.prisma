@@ -25,6 +25,7 @@ model Product {
   youtubeVideoId  String?
   fichaTecnicaUrl String?  // URL de la ficha técnica PDF
   hojaSeguridad    String?  // URL de la hoja de seguridad PDF
+  technicalSpecs   String?  // JSON array of {label, value}, tomado de la ficha técnica real
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
 }

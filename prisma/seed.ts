@@ -23,6 +23,9 @@ async function main() {
         presentations: JSON.stringify(product.presentations),
         characteristics: JSON.stringify(product.characteristics),
         youtubeVideoId: product.youtubeVideoId,
+        fichaTecnicaUrl: product.fichaTecnicaUrl,
+        hojaSeguridad: product.hojaSeguridad,
+        technicalSpecs: JSON.stringify(product.technicalSpecs ?? []),
       },
     })
   }

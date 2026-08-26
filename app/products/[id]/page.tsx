@@ -320,6 +320,42 @@ export default async function ProductPage({
           </div>
         </section>
 
+        {/* Technical Specifications */}
+        {product.technicalSpecs.length > 0 && (
+          <section className="py-12 sm:py-16">
+            <div className="mx-auto max-w-4xl px-4 lg:px-8">
+              <div className="text-center mb-8">
+                <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl mb-3">
+                  Especificaciones técnicas
+                </h2>
+                <p className="text-muted-foreground">
+                  Propiedades físicas según la ficha técnica de {product.name}
+                </p>
+              </div>
+
+              <div className="overflow-hidden rounded-xl border border-border bg-card">
+                <table className="w-full text-sm">
+                  <tbody>
+                    {product.technicalSpecs.map((spec, index) => (
+                      <tr
+                        key={spec.label}
+                        className={index % 2 === 1 ? "bg-muted/40" : undefined}
+                      >
+                        <td className="px-6 py-3.5 text-muted-foreground w-1/2 sm:w-2/5">
+                          {spec.label}
+                        </td>
+                        <td className="px-6 py-3.5 font-medium text-foreground">
+                          {spec.value}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Product Description */}
         <section className="py-12 sm:py-16 bg-muted/30">
           <div className="mx-auto max-w-4xl px-4 lg:px-8">

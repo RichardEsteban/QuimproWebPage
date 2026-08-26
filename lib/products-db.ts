@@ -1,8 +1,14 @@
 import { products as staticProducts } from "./products-data"
+import { prisma } from "./db"
 
 export type ProductCharacteristic = {
   title: string
   description: string
+}
+
+export type ProductTechnicalSpec = {
+  label: string
+  value: string
 }
 
 export type Product = {
@@ -20,6 +26,7 @@ export type Product = {
   youtubeVideoId: string | null
   fichaTecnicaUrl?: string | null
   hojaSeguridad?: string | null
+  technicalSpecs: ProductTechnicalSpec[]
 }
 
 function parseProductRow(row: {
@@ -37,6 +44,7 @@ function parseProductRow(row: {
   youtubeVideoId: string | null
   fichaTecnicaUrl?: string | null
   hojaSeguridad?: string | null
+  technicalSpecs?: string | null
 }): Product {
   return {
     id: row.id,
@@ -53,15 +61,34 @@ function parseProductRow(row: {
     youtubeVideoId: row.youtubeVideoId,
     fichaTecnicaUrl: row.fichaTecnicaUrl || null,
     hojaSeguridad: row.hojaSeguridad || null,
+    technicalSpecs: row.technicalSpecs ? (JSON.parse(row.technicalSpecs) as ProductTechnicalSpec[]) : [],
   }
 }
 
+function fromStatic(product: (typeof staticProducts)[number]): Product {
+  return { ...product, technicalSpecs: product.technicalSpecs ?? [] }
+}
+
+// La base de datos (Prisma) es la fuente principal en desarrollo/preview.
+// Si no hay conexión (por ejemplo, DATABASE_URL sin configurar en un deploy),
+// se usa la data estática como respaldo para no romper producción.
 export async function getProducts(): Promise<Product[]> {
-  // For Vercel deployment, use static data instead of Prisma
-  return staticProducts
+  try {
+    const rows = await prisma.product.findMany({ orderBy: { createdAt: "asc" } })
+    if (rows.length === 0) return staticProducts.map(fromStatic)
+    return rows.map(parseProductRow)
+  } catch {
+    return staticProducts.map(fromStatic)
+  }
 }
 
 export async function getProductById(id: string): Promise<Product | null> {
-  // For Vercel deployment, use static data instead of Prisma
-  return staticProducts.find(product => product.id === id) || null
+  try {
+    const row = await prisma.product.findUnique({ where: { id } })
+    if (row) return parseProductRow(row)
+  } catch {
+    // ignora y cae al respaldo estático
+  }
+  const fallback = staticProducts.find((product) => product.id === id)
+  return fallback ? fromStatic(fallback) : null
 }

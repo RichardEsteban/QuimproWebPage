@@ -47,6 +47,14 @@ export const products = [
     youtubeVideoId: "https://www.youtube.com/watch?v=QeHKAkoLjRw",
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA NFSC-100.pdf",
     hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD-NFSC-100.pdf",
+    technicalSpecs: [
+      { label: "Apariencia y color", value: "Líquido incoloro" },
+      { label: "Olor", value: "Suave característico" },
+      { label: "Componentes", value: "Uno" },
+      { label: "Densidad", value: "0.75 - 0.80 gr/cm3" },
+      { label: "% Peso IQBF", value: "No contiene" },
+      { label: "Composición", value: "Hidrocarburos alifáticos, hidrocarburos aromáticos y alcoholes" },
+    ],
   },
   {
     id: "thinner-acrilico-200",
@@ -96,6 +104,7 @@ export const products = [
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA THINNER NFSC-200.pdf",
     hojaSeguridad: "/products/datasheets/F SEGURIDAD THINNER ACRILICO AUTOMOTRIZ SC-200 R.pdf",
+    technicalSpecs: [],
   },
   {
     id: "aguarras-mineral",
@@ -119,6 +128,7 @@ export const products = [
     youtubeVideoId: "tu-video-id",
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA AGUARRAZ MINERAL AR-302.doc.pdf",
     hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD AGUARRAZ MINERAL AR-302.docx.pdf",
+    technicalSpecs: [],
   },
 
   {
@@ -142,6 +152,7 @@ export const products = [
     youtubeVideoId: "tu-video-id",
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA DILUYENTE EPOXICO NFSC-800.pdf",
     hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD DILUYENTE EPOXICO.pdf",
+    technicalSpecs: [],
   },
   {
     id: "alcohol-industrial",
@@ -164,6 +175,7 @@ export const products = [
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
     fichaTecnicaUrl: "/products/datasheets/ALCOHOL ETILICO DESNATURALIZADO WORD.pdf",
     hojaSeguridad: "/products/datasheets/ALCOHOL ETILICO DESNATURALIZADO WORD.pdf",
+    technicalSpecs: [],
   },
   
   {id: "thinner-standard",
@@ -186,6 +198,7 @@ export const products = [
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA NFSC-600.pdf",
     hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD-NFSC-600.pdf",
+    technicalSpecs: [],
   },
   {
     id: "preservante-madera",
@@ -208,6 +221,7 @@ export const products = [
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
     fichaTecnicaUrl: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA.pdf",
     hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA.pdf",
+    technicalSpecs: [],
   },
   {
     id: "alcohol-isopropilico-70",
@@ -230,6 +244,7 @@ export const products = [
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
     fichaTecnicaUrl: "/products/datasheets/alcohol-isopropilico-70-ficha-tecnica.pdf",
     hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 70% QUIMPRO.pdf",
+    technicalSpecs: [],
   },
   {id: "isopropyl-alcohol-99",
     name: "Alcohol Isopropílico 99%",
@@ -259,6 +274,7 @@ export const products = [
     youtubeVideoId: "https://www.youtube.com/watch?v=FNLinQxy4A8",
     fichaTecnicaUrl: "/products/datasheets/FICHA TECNICA ALCOHOL ISOP.pdf",
     hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 99% QUIMPRO.pdf",
+    technicalSpecs: [],
   },
   
 ]
