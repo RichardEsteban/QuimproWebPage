@@ -26,6 +26,7 @@ async function main() {
         fichaTecnicaUrl: product.fichaTecnicaUrl,
         hojaSeguridad: product.hojaSeguridad,
         technicalSpecs: JSON.stringify(product.technicalSpecs ?? []),
+        usageSteps: JSON.stringify(product.usageSteps ?? []),
       },
     })
   }

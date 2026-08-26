@@ -55,6 +55,11 @@ export const products = [
       { label: "% Peso IQBF", value: "No contiene" },
       { label: "Composición", value: "Hidrocarburos alifáticos, hidrocarburos aromáticos y alcoholes" },
     ],
+    usageSteps: [
+      "Revisa la hoja técnica de la pintura, esmalte o laca que vas a diluir para conocer la proporción de mezcla recomendada.",
+      "Diluye gradualmente con NFSC-100 hasta alcanzar la viscosidad de aplicación indicada, mezclando de forma uniforme.",
+      "Aplica con el método habitual del producto (pistola, brocha o rodillo) y deja secar; su evaporación controlada favorece un acabado brillante y sin residuos.",
+    ],
   },
   {
     id: "thinner-acrilico-200",
@@ -105,6 +110,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA THINNER NFSC-200.pdf",
     hojaSeguridad: "/products/datasheets/F SEGURIDAD THINNER ACRILICO AUTOMOTRIZ SC-200 R.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
   {
     id: "aguarras-mineral",
@@ -129,6 +135,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA AGUARRAZ MINERAL AR-302.doc.pdf",
     hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD AGUARRAZ MINERAL AR-302.docx.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
 
   {
@@ -153,6 +160,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA DILUYENTE EPOXICO NFSC-800.pdf",
     hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD DILUYENTE EPOXICO.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
   {
     id: "alcohol-industrial",
@@ -176,6 +184,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/ALCOHOL ETILICO DESNATURALIZADO WORD.pdf",
     hojaSeguridad: "/products/datasheets/ALCOHOL ETILICO DESNATURALIZADO WORD.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
   
   {id: "thinner-standard",
@@ -199,6 +208,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/HOJA TECNICA NFSC-600.pdf",
     hojaSeguridad: "/products/datasheets/FICHA DE SEGURIDAD-NFSC-600.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
   {
     id: "preservante-madera",
@@ -222,6 +232,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA.pdf",
     hojaSeguridad: "/products/datasheets/HOJA SEGURIDAD PRESERVANTE PARA MADERA.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
   {
     id: "alcohol-isopropilico-70",
@@ -245,6 +256,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/alcohol-isopropilico-70-ficha-tecnica.pdf",
     hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 70% QUIMPRO.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
   {id: "isopropyl-alcohol-99",
     name: "Alcohol Isopropílico 99%",
@@ -275,6 +287,7 @@ export const products = [
     fichaTecnicaUrl: "/products/datasheets/FICHA TECNICA ALCOHOL ISOP.pdf",
     hojaSeguridad: "/products/datasheets/HOJA DE SEGURIDAD ALCOHOL ISOPORPILICO 99% QUIMPRO.pdf",
     technicalSpecs: [],
+    usageSteps: [],
   },
   
 ]

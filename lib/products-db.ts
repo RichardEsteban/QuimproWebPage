@@ -27,6 +27,7 @@ export type Product = {
   fichaTecnicaUrl?: string | null
   hojaSeguridad?: string | null
   technicalSpecs: ProductTechnicalSpec[]
+  usageSteps: string[]
 }
 
 function parseProductRow(row: {
@@ -45,6 +46,7 @@ function parseProductRow(row: {
   fichaTecnicaUrl?: string | null
   hojaSeguridad?: string | null
   technicalSpecs?: string | null
+  usageSteps?: string | null
 }): Product {
   return {
     id: row.id,
@@ -62,11 +64,12 @@ function parseProductRow(row: {
     fichaTecnicaUrl: row.fichaTecnicaUrl || null,
     hojaSeguridad: row.hojaSeguridad || null,
     technicalSpecs: row.technicalSpecs ? (JSON.parse(row.technicalSpecs) as ProductTechnicalSpec[]) : [],
+    usageSteps: row.usageSteps ? (JSON.parse(row.usageSteps) as string[]) : [],
   }
 }
 
 function fromStatic(product: (typeof staticProducts)[number]): Product {
-  return { ...product, technicalSpecs: product.technicalSpecs ?? [] }
+  return { ...product, technicalSpecs: product.technicalSpecs ?? [], usageSteps: product.usageSteps ?? [] }
 }
 
 // La base de datos (Prisma) es la fuente principal en desarrollo/preview.
