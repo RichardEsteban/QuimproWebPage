@@ -26,6 +26,7 @@ model Product {
   fichaTecnicaUrl String?  // URL de la ficha técnica PDF
   hojaSeguridad    String?  // URL de la hoja de seguridad PDF
   technicalSpecs   String?  // JSON array of {label, value}, tomado de la ficha técnica real
+  usageSteps       String?  // JSON array de strings, pasos de modo de uso
   createdAt        DateTime @default(now())
   updatedAt        DateTime @updatedAt
 }

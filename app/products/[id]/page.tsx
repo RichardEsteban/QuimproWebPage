@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { notFound } from "next/navigation"
 import { Metadata } from "next"
 import { Header } from "@/components/header"
@@ -246,34 +247,42 @@ export default async function ProductPage({
           </div>
         </section>
 
-        {/* Main Applications - YouTube Video Section */}
-        <section className="py-12 sm:py-16 bg-muted/30">
-          <div className="mx-auto max-w-7xl px-4 lg:px-8">
-            <div className="text-center mb-8">
-              <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl mb-3">
-                Aplicaciones principales
-              </h2>
-              <p className="text-muted-foreground">
-                Descubre cómo utilizar {product.name} en diferentes aplicaciones industriales
-              </p>
-            </div>
+        {/* Modo de uso */}
+        {product.usageSteps.length > 0 && (
+          <section className="py-12 sm:py-16 bg-muted/30">
+            <div className="mx-auto max-w-7xl px-4 lg:px-8">
+              <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
+                <div className="space-y-6">
+                  <span className="inline-flex w-fit items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold tracking-widest text-primary">
+                    MODO DE USO
+                  </span>
+                  <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl text-balance">
+                    ¿Cómo usar {product.name}?
+                  </h2>
+                  <ol className="space-y-4">
+                    {product.usageSteps.map((step, index) => (
+                      <li key={step} className="flex gap-4">
+                        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm font-bold text-primary">
+                          {index + 1}
+                        </span>
+                        <span className="text-muted-foreground leading-relaxed pt-0.5">{step}</span>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
 
-            <div className="relative mx-auto max-w-4xl overflow-hidden rounded-2xl shadow-lg">
-              <div className="relative aspect-video">
-                <iframe
-                  src={`https://www.youtube.com/embed/${product.youtubeVideoId}`}
-                  title={`${product.name} Applications`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="absolute inset-0 h-full w-full"
-                />
-              </div>
-              <div className="bg-amber-500 text-amber-950 px-4 py-3 text-sm">
-                <strong>Nota:</strong> Reemplaza la URL de este video por la real de tu producto. Puedes subirlo a YouTube y pegar aquí el enlace para insertar.
+                <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted">
+                  <Image
+                    src={product.images[1] || product.images[0] || "/placeholder.svg"}
+                    alt={`Aplicación de ${product.name}`}
+                    fill
+                    className="object-contain p-6"
+                  />
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         {/* Complete Characteristics */}
         <section className="py-12 sm:py-16">
