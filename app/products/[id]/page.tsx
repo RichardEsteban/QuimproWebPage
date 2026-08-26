@@ -70,13 +70,21 @@ export async function generateMetadata({
 
   if (!product) {
     return {
-      title: "Product Not Found - Quimpro",
+      title: "Producto no encontrado | QUIMPRO",
     }
   }
 
   return {
-    title: `${product.name} - Quimpro Chemical Solvents`,
+    title: `${product.name} | QUIMPRO`,
     description: product.shortDescription,
+    alternates: {
+      canonical: `/products/${product.id}`,
+    },
+    openGraph: {
+      title: `${product.name} | QUIMPRO`,
+      description: product.shortDescription,
+      images: product.image ? [{ url: product.image }] : undefined,
+    },
   }
 }
 

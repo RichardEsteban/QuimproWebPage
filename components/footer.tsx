@@ -27,8 +27,8 @@ export function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/logo.png"
-                alt="QUIMPRO Logo"
+                src="/logo.jpg"
+                alt="Química Proceres (QUIMPRO)"
                 width={40}
                 height={40}
                 className="rounded-lg"
@@ -36,7 +36,7 @@ export function Footer() {
               <span className="text-xl font-bold">QUIMPRO</span>
             </Link>
             <p className="mt-4 text-sm text-background/70 max-w-xs">
-              Fabricante y distribuidor líder de solventes químicos de alta calidad para aplicaciones industriales, automotrices y comerciales.
+              Química Proceres (QUIMPRO) — fabricante y distribuidor líder de solventes químicos de alta calidad para aplicaciones industriales, automotrices y comerciales.
             </p>
             <p className="mt-4 text-sm text-background/70">
               Certificación ISO 9001:2015

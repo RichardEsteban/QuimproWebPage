@@ -5,8 +5,11 @@ import { Beaker, Shield, Award } from "lucide-react"
 
 export function Hero() {
   return (
-    <section id="home" className="relative overflow-hidden bg-background">
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+    <section id="home" className="relative overflow-hidden bg-background scroll-mt-20">
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"
+      />
       
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:py-24 lg:px-8 lg:py-32">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center">
@@ -50,9 +53,10 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-2xl bg-muted p-8 shadow-xl">
               <Image
                 src="/products/ThinnerNFSC100-1.jpeg"
-                alt="Solventes químicos de alta calidad"
+                alt="Envase de Thinner NFSC-100, uno de los solventes químicos fabricados por QUIMPRO"
                 width={500}
                 height={400}
+                priority
                 className="w-full h-auto rounded-lg"
               />
             </div>

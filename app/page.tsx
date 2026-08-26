@@ -9,13 +9,15 @@ import { getProducts } from "@/lib/products-db"
 export default async function Home() {
   const products = await getProducts()
   return (
-    <main className="min-h-screen">
+    <>
       <Header />
-      <Hero />
-      <Products products={products} />
-      <About />
-      <Contact />
+      <main id="main-content" className="min-h-screen">
+        <Hero />
+        <About />
+        <Products products={products} />
+        <Contact />
+      </main>
       <Footer />
-    </main>
+    </>
   )
 }

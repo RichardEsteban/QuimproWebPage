@@ -23,7 +23,7 @@ const stats = [
 
 export function About() {
   return (
-    <section id="about" className="bg-muted/50 py-16 sm:py-24">
+    <section id="about" className="bg-muted/50 py-16 sm:py-24 scroll-mt-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div>
@@ -38,7 +38,7 @@ export function About() {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                <strong className="text-foreground">QUIMPRO</strong> es una empresa química peruana con sólida presencia en el mercado desde 2002, especializada en la fabricación, comercialización y distribución de solventes químicos de alta calidad para los sectores industrial, automotriz y comercial.
+                <strong className="text-foreground">QUIMPRO</strong> (Química Proceres) es una empresa química peruana con sólida presencia en el mercado desde 2002, especializada en la fabricación, comercialización y distribución de solventes químicos de alta calidad para los sectores industrial, automotriz y comercial.
               </p>
               <p>
                 Nos caracterizamos por nuestro compromiso con la calidad, la seguridad y la mejora continua. Nuestros productos se desarrollan bajo estrictos estándares de calidad para garantizar confiabilidad y desempeño óptimo.

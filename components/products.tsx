@@ -18,7 +18,7 @@ type ProductsProps = {
 
 export function Products({ products }: ProductsProps) {
   return (
-    <section id="products" className="bg-background py-16 sm:py-24">
+    <section id="products" className="bg-background py-16 sm:py-24 scroll-mt-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary mb-6">

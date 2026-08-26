@@ -22,12 +22,12 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo.jpg"
-            alt="QUIMPRO Logo"
-            width={75}
-            height={75}
+            alt="Química Proceres (QUIMPRO)"
+            width={56}
+            height={56}
             className="rounded-lg"
           />
-          <span className="text-xl font-bold text-foreground"></span>
+          <span className="text-xl font-bold text-foreground">QUIMPRO</span>
         </Link>
 
         <div className="hidden md:flex md:items-center md:gap-8">
@@ -35,7 +35,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary border-b-2 border-transparent hover:border-primary py-1"
             >
               {link.label}
             </Link>
@@ -52,7 +52,9 @@ export function Header() {
 
         <button
           type="button"
-          className="md:hidden rounded-md p-2 text-foreground"
+          className="md:hidden flex h-11 w-11 items-center justify-center rounded-md text-foreground"
+          aria-expanded={mobileMenuOpen}
+          aria-controls="mobile-menu"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           <span className="sr-only">Abrir menú</span>
@@ -65,7 +67,7 @@ export function Header() {
       </nav>
 
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-border">
+        <div id="mobile-menu" className="md:hidden border-t border-border">
           <div className="space-y-1 px-4 py-4">
             {navLinks.map((link) => (
               <Link
