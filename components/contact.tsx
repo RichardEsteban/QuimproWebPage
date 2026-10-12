@@ -131,7 +131,6 @@ export function Contact() {
                     <h3 className="font-semibold text-foreground">Teléfono</h3>
                     <p className="text-sm text-muted-foreground mt-1">
                       +51 920 016 148 <br />
-                      +51 992 360 331
                     </p>
                   </div>
                 </div>
