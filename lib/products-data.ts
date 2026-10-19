@@ -51,7 +51,7 @@ export const products = [
       { label: "Apariencia y color", value: "Líquido incoloro" },
       { label: "Olor", value: "Suave característico" },
       { label: "Componentes", value: "Uno" },
-      { label: "Densidad", value: "0.75 - 0.80 gr/cm3" },
+      { label: "Densidad", value: "0.70 -0.80 gr/cm3" },
       { label: "% Peso IQBF", value: "No contiene" },
       { label: "Composición", value: "Hidrocarburos alifáticos, hidrocarburos aromáticos y alcoholes" },
     ],
